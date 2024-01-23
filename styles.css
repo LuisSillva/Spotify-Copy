@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar {
@@ -7,7 +8,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 12px;
+    padding: 5px 12px 12px 5px;
     width: 315px;
 }
 
@@ -54,7 +55,7 @@ body {
     font-size: 14px;
     margin-top: 10px;
     width: 300px;
-    height: 100vh;
+    height: 75%;
 }
 
 .library__content {
@@ -71,6 +72,7 @@ body {
     font-weight: 600;
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
+    cursor: pointer;
 }
 
 .library .playlist__content {
@@ -167,10 +169,12 @@ body {
 .library .cookies{
     margin-top: 69%;
 }
-.library .cookies span {
+.library .cookies a {
     /* padding: 16px; */
     font-family: "DM Sans", sans-serif;
     margin-left: 6px;
+    text-decoration: none;
+    color: #b3b3b3;
 }
 
 .library .language-button {
@@ -183,4 +187,53 @@ body {
     background-color: #121212;
     border-radius: 20px;
     border: 1px solid #696969;
+    cursor: pointer;
+}
+
+.footer {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 1735px;
+    color: white;
+    height: 53px;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+}
+
+.footer .premium {
+    display: flex;
+    align-items: center;
+}
+
+.footer button {
+    margin-left: 18%;
+    margin-top: 5px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+}
+
+.footer .premium div {
+    width: 70%;
+    font-size: 15px;
+}
+
+.footer .premium h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.footer .premium p {
+    margin-left: 20px;
+    margin-top: 5px;
 }
