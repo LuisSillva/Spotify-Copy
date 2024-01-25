@@ -1,0 +1,121 @@
+/* Header */
+
+.main-container {
+    max-width: 90vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+    width: 81%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 16px 16px 16px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+}
+
+.header-nav .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav .nav .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bh-icon);
+    background-color: var(--font-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--bg-icon);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header-search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header-search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+::placeholder {
+    color: var(--font-color);
+}
+
+.header__login .subscribe {
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--bg-icon);
+}
+
+.main-container .home {
+    background: var(--bg-color);
+    width: 99.3%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.main-container .home .message {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 30px 15px 30px;
+    color: var(--font-color);
+}
+
+.main-container .home .message-2 {
+    font-size: 15px;
+    margin-left: 35px;
+    color: var(--font-color);
+}
