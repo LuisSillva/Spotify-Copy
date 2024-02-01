@@ -5,6 +5,7 @@
     /* COLORS */
 
     /* Gray - Original */
+    --background: black;
     --bg-color: #121212;
     --bg-icon: #131313;
     --font-color: white;
@@ -13,7 +14,8 @@
     --bg-arrow-color: rgba(0, 0, 07);
 
     /* Test Color Scheme */
-    /* --bg-color: #424669;
+    /*--background: ; 
+    --bg-color: #424669;
     --bg-icon: #7077a1;
     --font-color: #f4c49c;
     --bg-nav-color: black;
